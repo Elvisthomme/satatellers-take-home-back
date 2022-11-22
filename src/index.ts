@@ -10,7 +10,7 @@ const app: Express = express();
 app.use(express.json());
 app.use(cors());
 app.use(patientAppointmentRouter);
-const port = 8000;
+const port = 8080;
 
 app.listen(port, () => {
   console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
