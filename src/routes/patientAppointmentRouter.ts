@@ -4,8 +4,8 @@ import validationMiddleWare from "../middleware/validationMiddleWare";
 import { PatientAppointmentInstance } from "../model/patientAppointment";
 import validator from "../validator/patientAppointmentValidator";
 const router = Router();
-const endPoint = "/";
-// const endPoint = "/api/patient-appointment/";
+// const endPoint = "/";
+const endPoint = "/api/patient-appointment/";
 const pageSize = 10;
 
 router.get(
